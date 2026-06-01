@@ -1,0 +1,54 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Virtual Environments ─────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Environment / Secrets ────────────────────
+.env
+*.env
+!.env.example
+
+# ─── Testing & Coverage ───────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+*.pytest_cache
+
+# ─── IDEs ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ─── Node / Frontend ──────────────────────────
+node_modules/
+frontend/dist/
+frontend/.env
+!frontend/.env.example
+
+# ─── Docker ───────────────────────────────────
+# (keep Dockerfiles but ignore local overrides)
+
+# ─── Logs ─────────────────────────────────────
+*.log
+logs/
+
+# ─── Database ─────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── Alembic ──────────────────────────────────
+# Keep alembic versions committed   
