@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     """
 
     # ── Database ──────────────────────────────────────────────────────────
-    DATABASE_URL: str = "postgresql://postgres:postgres@localhost:5432/inventory_db"
+    DATABASE_URL: str = "postgresql+psycopg://postgres:postgres@localhost:5432/inventory_db"
 
     # ── Application ───────────────────────────────────────────────────────
     APP_NAME: str = "Inventory & Order Management System"
