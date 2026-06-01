@@ -13,6 +13,9 @@ from app.utils.exceptions import (
     integrity_error_handler,
     global_exception_handler,
 )
+from app.models import *
+
+Base.metadata.create_all(bind=engine)
 
 # ── Logging Configuration ─────────────────────────────────────────────────────
 # Configures Python's built-in logger to show timestamps and log levels.
